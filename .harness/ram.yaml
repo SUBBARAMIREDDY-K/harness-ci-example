@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_harness_ci_example_1695211569867
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  name: ram
+  identifier: ram
+  orgIdentifier: default
+  projectIdentifier: helloworld
